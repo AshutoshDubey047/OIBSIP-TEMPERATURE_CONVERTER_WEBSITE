@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+<body>
+    <div class="converter">
+        <h1>Temperature Converter</h1>
+        <input type="number" id="tempInput" placeholder="Enter temperature" required>
+        <h3 style="color: black;">Select unit of input</h3>
+        <select id="unitSelect">
+            <option value="Celsius">Celsius</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+        </select>
+        <h3 style="color: rgb(255, 0, 0);">Click to convert in other form </h3>
+        <button onclick="convertTemperature()">Convert</button>
+        <p id="result"></p>
+    </div>
+    <FOOTER> <p style="color: blue;">&copy; 2024 Calculator Website</p><br>
+        <nav class="nav-socials">
+           <ul style="list-style:none; display:inline;">
+            <span>Follow me on-</span>
+            <span><a href="#"><i class="ri-twitter-fill"></i></a></span>
+                    <span><a href="#"><i class="ri-facebook-circle-fill"></i></a></span>
+                        <span><a href="#"><i class="ri-instagram-fill"></i></a></span>
+                            <span><a href="#"><i class="ri-linkedin-box-fill"></i></a></span>
+            </ul> <br></br>
+        This Calculator Page is Created&Design by ASHUTOSH DUBEY</FOOTER>
+        
+    <script src="script.js"></script>
+</body>
+
+</html>

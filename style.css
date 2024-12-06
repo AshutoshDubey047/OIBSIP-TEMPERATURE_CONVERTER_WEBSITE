@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.converter {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #00796b;
+    /* Teal color */
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #00796b;
+    /* Teal border */
+    border-radius: 5px;
+    width: calc(100% - 22px);
+    /* Full width with padding */
+}
+
+input:focus,
+select:focus {
+    border-color: #004d40;
+    /* Darker teal on focus */
+    outline: none;
+    /* Remove default outline */
+}
+
+button {
+    background-color: #00796b;
+    /* Teal button */
+    color: white;
+    /* White text */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth transition */
+}
+
+button:hover {
+    background-color: #004d40;
+    /* Darker teal on hover */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    /* Larger font size for results */
+    color: #004d40;
+    /* Darker teal for results text */
+}
+
+
+FOOTER {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  FOOTER p {
+    margin: 0;
+    padding: 10px;
+    color: blue;
+  }
+  
+    
+    .nav-socials a {
+    padding: 5px 7px;
+    font-size: 1rem;
+    color:var(--text-dark);
+    background-color: #efeaea;
+    border-radius: 100%;
+    }
+    
+   
+    
+    
